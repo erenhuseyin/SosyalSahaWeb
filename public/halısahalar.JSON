@@ -1,0 +1,74 @@
+[
+  {
+    "img": "http://halisahalarim.com/content/venues/large/22_Ta%C5%9Fhangar_Hal%C4%B1_Saha_ve_Spor_Merkezi_20160219_d502771c-0c21-4abb-82d2-a6f32df4fbeb.jpg",
+    "title": "Taşhangar Halı Saha",
+    "address": "Cevat Ağaoğulları Spor Tesisleri 1. Murat Mah. Talatpaşa Cad. No:64 - Edirne",
+    "price": 350,
+    "num": "02842251813",
+    "id": 1001,
+    "key": 1
+  },
+  {
+    "img": "http://halisahalarim.com/content/venues/large/22_Esentepe_Hal%C4%B1_Saha_Spor_Tesisleri_20160325_15ff06cb-ecdc-422d-86d0-e74f4152c816.jpg",
+    "title": "Esentepe HalıSaha",
+    "address": "Vali Konağı Arkası 1.Nolu Münübüs Durakları Yanı / Esentepe",
+    "price": 250,
+    "num": "02842251513",
+    "id": 1012,
+    "key": 2
+  },
+  {
+    "img": "https://adameksik.com/blog/wp-content/uploads/2015/03/hali-sahaya-oyuncu-arayanlar-800x445.jpg",
+    "title": "Dinç Halısaha",
+    "address": "Bahriye Üçok Cad. Şükrüpaşa Mah. Edirne Merkez, Edirne",
+    "price": 370,
+    "num": "02842251614",
+    "id": 1023,
+    "key": 3
+  },
+  {
+    "img": "http://konyafile.com/images/acilir/20200123115152_0.jpg",
+    "title": "Barankaya Halısaha",
+    "address": "Şükrüpaşa Mah. Arda Cad. No:8 Merkez - Edirne",
+    "price": 240,
+    "num": "02842451613",
+    "id": 1034,
+    "key": 4
+  },
+  {
+    "img": "http://halisahalarim.com/content/venues/large/22_Edirne_Kaptan_Cafe_Hal%C4%B1_Saha_20160219_bd76d6a9-1421-4461-99cf-67fde6566cf2.jpg",
+    "title": "Edirne Kaptan Cafe Halı Saha",
+    "address": "Şükrüpaşa Mahallesi Gölet Mevkii / Merkez / Edirne",
+    "price": 700,
+    "num": "02842251643",
+    "id": 1048,
+    "key": 5
+  },
+  {
+    "img": "https://i.ytimg.com/vi/L93JdnlJq6Q/maxresdefault.jpg",
+    "title": "Edirne Dolunay Halı Saha",
+    "address": "Şükrüpaşa Mah. Şehit Polis Çetin Nefize Özsoy Cad. No:23/2 - Merkez - Edirne",
+    "price": 310,
+    "num": "02842554613",
+    "id": 1057,
+    "key": 6
+  },
+  {
+    "img": "https://lh5.googleusercontent.com/p/AF1QipMx2bwiLJZB22CqaGi0dTHswtB3C_7shhjvtJDM=h480-w640-c",
+    "title": "Edirne Olimpia Halı Saha",
+    "address": "spor tesisleri yanı, Şükrüpaşa mah. Şükrüpaşa caddesi",
+    "price": 375,
+    "num": "02842251113",
+    "id": 1058,
+    "key": 7
+  },
+  {
+    "img": "http://www.edirnehalisaha.com/images/gallery/01.jpg",
+    "title": "Edirne Show Halı Saha",
+    "address": "İstasyon mahallesi, Kipa arkası",
+    "price": 235,
+    "num": "02842251623",
+    "id": 1059,
+    "key": 7
+  }
+]

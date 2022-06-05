@@ -1,0 +1,29 @@
+/* all input field design  */
+input {
+  padding: 5px 50px;
+  border: 1px solid #f9bc14;
+  border-radius: 10px;
+  outline: none;
+}
+/* all button design  */
+button {
+  background-color: #ff6201;
+  border: none;
+  outline: none;
+  padding: 6px 40px;
+  color: white;
+  margin: 30px;
+  font-size: 20px;
+  border-radius: 1rem;
+}
+.login-container {
+  min-height: 100vh;
+}
+
+/* responsive design  */
+@media screen and (max-width: 668px) {
+  .login-container {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
