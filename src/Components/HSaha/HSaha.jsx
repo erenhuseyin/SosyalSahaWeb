@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, Col, Modal, Button, Form, Container } from "react-bootstrap";
+import { Card, Col, Modal, Button, Container } from "react-bootstrap";
 
 const HSaha = (props) => {
   //json'dan çekilen objeler
