@@ -26,7 +26,7 @@ const LoginOrRegis = () => {
             <button>Giriş</button>
             <Link to="/login">
               <p className="mb-0 mt-0">
-                <span>ziyaretçi girişi</span>
+                <span>admin girişi</span>
               </p>
             </Link>
           </div>

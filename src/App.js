@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import HSahaData from "./Components/HSahaData/HSahaData";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
@@ -7,7 +6,6 @@ import NotFound from "./Components/NotFound/NotFound";
 import NavigationBar from "./Components/NavigationBar/NavigationBar";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
-import HomeHalısaha from "./Components/HomeHalısaha/HomeHalısaha";
 import LoginOrRegis from "./Components/LoginOrRegis/LoginOrRegis";
 
 function App() {

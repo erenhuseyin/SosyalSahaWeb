@@ -9,9 +9,7 @@ const Home = () => {
   return (
     <div>
       <div className="container">
-        {/* component call  */}
         <IntroSection />
-        {/* top sectices start */}
         <h1
           style={{
             textTransform: "uppercase",
@@ -21,11 +19,9 @@ const Home = () => {
         >
           <span>Halı Sahalar</span>
         </h1>
-        {/* some demo course  */}
 
         <HomeHalısaha />
 
-        {/* some demo course end  */}
         <div>
           <Link to="/halisahalar" className="btn btn-success w-25 mb-5">
             Hepsini göster

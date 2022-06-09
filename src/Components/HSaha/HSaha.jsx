@@ -1,19 +1,27 @@
-import React, { useState } from "react";
-import { Card, Col, Modal, Button, Form } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
+import { Card, Col, Modal, Button, Form, Container } from "react-bootstrap";
 
 const HSaha = (props) => {
-  // some common object peacking
+  //json'dan çekilen objeler
   const { img, key, address, num, price, title, times } = props.hsaha;
-  //randevu
+  //rezervasyon
+
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  //rezervasyon seçimi
+  const [selectedTime, setSelectedTime] = useState();
+
+  useEffect(() => {
+    console.log(selectedTime);
+  }, [selectedTime]);
+
   return (
     <div className="mt-5 ">
       <div className="container">
-        {/* courses summary  */}
+        {/* halısaha card ve rezervasyon modal */}
         <Col>
           <Card>
             <Card.Img variant="top" src={img} />
@@ -33,32 +41,41 @@ const HSaha = (props) => {
                     <Modal.Title>Rezervasyonunuzu Seçiniz</Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
-                    <Form>
-                      {["checkbox"].map((type) => (
-                        <div key={`inline-${type}`} className="mb-3">
-                          <Form.Check
-                            inline
-                            label="1"
-                            name="group1"
-                            type={type}
-                            id={`inline-${type}-1`}
+                    <Container
+                      style={{
+                        display: "flex",
+                        justifyContent: "center",
+                        flexDirection: "column",
+                        gap: "5px",
+                      }}
+                    >
+                      {times.map((time, index) => (
+                        <div
+                          key={index}
+                          style={{
+                            width: "400px",
+                            display: "flex",
+                            justifyContent: "center",
+                            flexDirection: "row",
+                            gap: "5px",
+                          }}
+                        >
+                          <input
+                            onClick={() => setSelectedTime(time)}
+                            name="timeSelect"
+                            id={"time" + index}
+                            style={{
+                              width: "20px",
+                              height: "20px",
+                            }}
+                            type="radio"
                           />
-                          <Form.Check
-                            inline
-                            label="2"
-                            name="group1"
-                            type={type}
-                            id={`inline-${type}-2`}
-                          />
-                          <Form.Check
-                            inline
-                            label="3 (disabled)"
-                            type={type}
-                            id={`inline-${type}-3`}
-                          />
+
+                          <label htmlFor={"time" + index}> {time}</label>
+                          <br></br>
                         </div>
                       ))}
-                    </Form>
+                    </Container>
                   </Modal.Body>
                   <Modal.Footer>
                     <Button variant="secondary" onClick={handleClose}>

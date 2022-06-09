@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { Card, Col, Row } from "react-bootstrap";
+import { Row } from "react-bootstrap";
 import HSaha from "../HSaha/HSaha";
-
 
 const HSahaData = () => {
   const [hsdata, setHsdata] = useState([]);
@@ -14,11 +13,10 @@ const HSahaData = () => {
 
   return (
     <div className="mt-5">
-      {/* component call  */}
       <h1>
         <span>Halı Sahalarımız</span>
       </h1>
-      {/* map our array ad show the card */}
+      {/* verileri hsdata ile prop şeklinde alma */}
       <Row xs={1} md={2} className="g-4">
         {hsdata.map((hsaha) => (
           <HSaha key={hsaha.id} hsaha={hsaha}></HSaha>
