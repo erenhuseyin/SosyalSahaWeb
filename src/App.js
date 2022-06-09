@@ -7,7 +7,6 @@ import NotFound from "./Components/NotFound/NotFound";
 import NavigationBar from "./Components/NavigationBar/NavigationBar";
 import Footer from "./Components/Footer/Footer";
 import About from "./Components/About/About";
-import Randevu from "./Components/Randevu/Randevu";
 import HomeHalısaha from "./Components/HomeHalısaha/HomeHalısaha";
 import LoginOrRegis from "./Components/LoginOrRegis/LoginOrRegis";
 
@@ -26,7 +25,6 @@ function App() {
           </Route>
           <Route exact path="/halisahalar">
             <HSahaData>
-              <Randevu></Randevu>
             </HSahaData>
             
           </Route>

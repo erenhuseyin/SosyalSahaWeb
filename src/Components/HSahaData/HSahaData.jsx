@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Card, Col, Row } from "react-bootstrap";
-import IntroSection from "../IntroSection/IntroSection";
 import HSaha from "../HSaha/HSaha";
+
 
 const HSahaData = () => {
   const [hsdata, setHsdata] = useState([]);
-  // load from API
+  // json'dan verileri çekme
   useEffect(() => {
     fetch("halısahalar.JSON")
       .then((res) => res.json())
